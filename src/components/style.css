@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Container Styles */
+  .mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00474f;
+  }
+  
+  .box {
+    height: 750px;
+    width: 460px;
+    background-color: #08979c;
+    border-radius: 20px;
+    position: relative !important;
+  }
+  
+  /* Input Styles */
+  .inputFields {
+    height: 60px;
+    width: 85%;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+    box-shadow: 1px 5px 15px 1px rgb(56, 55, 55);
+  }
+  
+  /* Button Styles */
+  .searchBtn {
+    position: absolute !important;
+    margin-top: 40px;
+    margin-left: 260px;
+    height: 50px;
+    width: 120px;
+    background-color: #08979c;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+  }
+  
+  .searchBtn:hover {
+    transform: scale(1.06); /* Corrected the scaling property */
+  }
+  
+  /* Weather Details Styles */
+  .temp-section {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 50px;
+  }
+  
+  .temp {
+    font-size: 100px;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(44, 41, 41);
+    padding: 0;
+    position: relative;
+  }
+  
+  .min-max {
+    margin-top: 25px;
+    height: 60px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .city {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 50px;
+    color: rgb(44, 41, 41);
+  }
+  
+  .country {
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(46, 44, 44);
+  }
+  
+  .bottomdata {
+    margin-top: 40px;
+  }
+  
+  .bottomdata h4 {
+    font-size: 25px;
+    color: rgb(44, 41, 41);
+  }
+  
+  /* Weather Details Section Styles */
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    row-gap: 40px;
+    column-gap: 10px; /* Added a value for column-gap */
+    width: 80%;
+  }
+  
+  .details_section {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex: 1;
+    margin-top: 5px;
+    gap: 5px;
+  }
+
+  .feelslike{
+    font-family: f ;
+    color: rgb(42, 41, 41);
+    margin-top: 30px;
+    font-size: 20px;
+    }
+  
+  .col img {
+    width: 50px;
+    margin-right: 10px;
+    color: rgb(44, 41, 41);
+  }
+  
+  .humidity,
+  .wind,
+  .sunrise,
+  .sunset {
+    font-size: 20px;
+    margin-top: -6px;
+    text-align: left;
+  }
+  
+  .col p {
+    text-align: left;
+    filter: drop-shadow(2);
+  }
+  
+  .info_text p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(44, 41, 41);
+    font-weight: bold;
+  }
+  
+  .image {
+    margin-right: 30px;
+    margin-top: 60px;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+  }
+  
+
+.error{
+  font-size: 100px;
+  
+}
+
+
+.doodle{
+  height: 500px;
+  padding: 0;
+}
+.searchingPara{
+  font-size: 20px;
+  margin-top: 90%;
+  z-index: 999;
+position: absolute;
+}
+
+.prompt{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.notFoundDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+
+
+.notFoundDiv p{
+  color: #242626 !important;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.notFoundDiv h3{
+margin-top: 100px;
+}
+
+.title{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 37%;
+  margin-right: 85%;
+  position: absolute;
+  width: 100px;
+}
+
+
+.weatherApp{
+  font-size: 70px;
+  color: rgb(233, 233, 233);
+  font-family:'Times New Roman', Times, serif;
+}
+
